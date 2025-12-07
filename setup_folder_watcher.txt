@@ -1,0 +1,6 @@
+install nodejs: sudo apt install -y nodejs npm
+Masuk ke folder project: cd /var/www/html/gotham/watcher
+Inisialisasi project Node.js: npm init -y
+Install dependencies: npm install chokidar mysql2
+Buat file watcher.js di /var/www/html/gotham/watcher/watcher.js
+Jalankan script: node watcher.js
